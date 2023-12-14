@@ -1,0 +1,54 @@
+/* src/components/Contact.css */
+
+/* Apply some basic styling to the form */
+form {
+    max-width: 400px;
+    margin: auto;
+    background-color: white; /* Set background color to white */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h2{
+    max-width: 400px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+ 
+  }
+  /* Style labels and inputs */
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  
+  /* Style error messages */
+  p {
+    color: red;
+    margin-top: 4px;
+    font-size: 14px;
+  }
+  
+  /* Style the submit button */
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

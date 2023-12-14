@@ -1,0 +1,41 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content:left;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+}
+
+.header {
+  /* Add your header styles here */
+}
+
+/* Add more styles as needed */

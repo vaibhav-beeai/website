@@ -1,0 +1,15 @@
+/* src/components/Products.css */
+.products-page {
+  padding: 20px;
+}
+
+.dropdown-container {
+  display: flex;
+}
+
+.half {
+  flex: 1;
+  padding: 0 10px;
+}
+
+/* Add additional styling as needed */

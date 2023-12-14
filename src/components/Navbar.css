@@ -1,0 +1,333 @@
+/* Navbar.css */
+.background{
+  background-color:white;
+  
+
+}
+
+.navbar{
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  /* background-color: white; */
+  color: black;
+}
+
+.logo {
+  display: flex;
+  /* width: 60px; */
+  height: auto;
+  align-items: center;
+  /* margin-left: 400px; adjust logos position */
+  margin-left: auto;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.logo img {
+  width: 140px;
+  height: auto;
+  /* margin-right: 0px; */
+  margin-top: 20px;
+  margin-left: -140px;
+}
+
+.nav-links {
+  display: flex;
+  margin-top: 30px;
+  /* margin-left: 40px;  adjust the gap of links i.e about and all */
+  margin-right: 750px;
+}
+
+/* Add styles for the 'About' link */
+#about-link {
+  color: black; /* Change this to your desired color */
+  font-weight:bold;
+  font-family: 'YourCustomFont', sans-serif;
+}
+
+#product-link{
+  color:black;
+  font-weight: bold;
+  font-family: 'YourCustomFont', sans-serif;
+}
+
+/* Add styles for the 'Contact Us' link */
+#contact-link {
+  color: black; /* Change this to your desired color */
+  font-weight: bold;
+  font-family: 'YourCustomFont', sans-serif;
+}
+
+.nav-link {
+  margin-right: 40px;
+  font-weight: 100;
+  text-decoration: none;
+  color:black;
+  position: relative;
+  white-space: nowrap;  /* to prevent text from wrapping ,, for text to appear in a single line*/
+}
+
+.nav-link:hover::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  /* background-color: #333; */
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+  z-index: 1;
+}
+
+.nav-link:hover::before {
+  content: attr(data-details);
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+  z-index: 1;
+}
+
+.nav-link:hover::before {
+  display: block;
+}
+
+/* for image below navbar */
+/* Navbar.css */
+
+.img-below-navbar {
+  width: 75%;
+  height: auto;
+
+}
+
+
+.image-container {
+  position: relative;
+  margin-top: 0px; /* Adjust as needed  gap between navbar and image*/
+  margin-right: 5%;
+
+}
+
+.overlay-text {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.overlay-text h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+/* for update button*/
+
+.update-button {
+  position: absolute;
+  bottom: 750px; /* Adjust as needed */
+  left: 380px; /* Adjust as needed */
+}
+
+.update-button button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.update-button button:hover {
+  background-color: #45a049;
+}
+
+/*  for images below navbar image */
+.image-row{
+   display: flex;
+   justify-content: space-between;
+   margin-top:20px;
+   margin-bottom: -90px;
+   margin-left: 7%;
+}
+
+.smallimage1{
+  width:70%;
+  /* margin-left: 52.5%; */
+  height:70%;
+  /*  for black and white*/
+  filter: grayscale(100%); /* Apply grayscale filter to make the image black and white */
+  transition: filter 0.3s; /* Add transition for a smooth effect */
+}
+.largeimage1{
+  width: 86%;
+  height: 70%;
+  margin-right: %;
+  margin-left: -30%;
+  filter: grayscale(100%); /* Apply grayscale filter to make the image black and white */
+  transition: filter 0.3s; /* Add transition for a smooth effect */
+
+}
+
+/* images below read news */
+
+
+.smallimage1:hover {
+  filter: grayscale(0%); /* Remove grayscale filter on hover to restore color */
+}
+.smallimage1:hover + .image-text {
+  color: darkslategray; /* Adjust the color as needed */
+}
+
+.largeimage1:hover {
+  filter: grayscale(0%); /* Remove grayscale filter on hover to restore color */
+}
+
+/* 2nd row of images */
+.smallimage2{
+  margin-top: -2.65%;
+  width:40%;
+  margin-right: -22%;
+  height:55%;
+  /*  for black and white*/
+  filter: grayscale(100%); /* Apply grayscale filter to make the image black and white */
+  transition: filter 0.3s; /* Add transition for a smooth effect */
+}
+.largeimage2{
+  margin-top: -6%;
+  width: 170%;
+  height: 55%;
+  margin-left: 19.5%;
+  filter: grayscale(100%); /* Apply grayscale filter to make the image black and white */
+  transition: filter 0.3s; /* Add transition for a smooth effect */
+
+}
+
+/* images below read news */
+
+
+.smallimage2:hover {
+  filter: grayscale(0%); /* Remove grayscale filter on hover to restore color */
+}
+.largeimage2:hover {
+  filter: grayscale(0%); /* Remove grayscale filter on hover to restore color */
+}
+
+/* text over image */
+
+.image-with-text {
+ 
+  font-family: 'YourCustomFont', sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+.image-with-text:hover {
+  
+  text-decoration: underline;
+  color: rgb(30, 216, 216); /* Change color on hover */
+}
+
+/* for every image differnet text*/
+
+
+.image-text {
+  position: absolute;
+  bottom: 580px; /* Adjust as needed */
+  left: 280px; /* Adjust as needed */
+  transform: translate(-50%, -50%);
+  text-align: center;
+  /* color: black; */
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.image-text-2 {
+  position: absolute;
+  bottom: 580px; /* Adjust as needed */
+  left: 700px; /* Adjust as needed */
+  transform: translate(-50%, -50%); 
+  text-align: center;
+  /* color: black; */
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.image-text-3 {
+  position: absolute;
+  bottom: 320px; /* Adjust as needed */
+  left: 400px; /* Adjust as needed */
+  transform: translate(-50%, -50%);
+  text-align: center;
+  /* color: black; */
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.image-text-4 {
+  position: absolute;
+  bottom: 320px; /* Adjust as needed */
+  left: 1050px; /* Adjust as needed */
+  transform: translate(-50%, -50%);
+  text-align: center;
+  /* color: black; */
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Add styles for the 'Products' dropdown */
+.products-dropdown-container {
+  position: relative;
+}
+
+.products-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: flex;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  color: black;
+}
+
+.dropdown-section {
+  padding: 10px;
+}
+
+.dropdown-section h3 {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.dropdown-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-section ul li {
+  margin-bottom: 5px;
+}
+
+.link-list a {
+  color: black;
+}
