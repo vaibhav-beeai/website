@@ -1,0 +1,170 @@
+
+  
+  /*  for images below navbar image */
+  .image-row{
+     display: flex;
+     justify-content: space-between;
+     margin-top:20px;
+     margin-bottom: -90px;
+     margin-left: 7%;
+  }
+  
+  .smallimage1{
+    width:70%;
+    margin-left: 23.5%;
+    height:89%;
+    margin-top: 20px;
+    /*  for black and white*/
+    filter: grayscale(100%); /* Apply grayscale filter to make the image black and white */
+    transition: filter 0.3s; /* Add transition for a smooth effect */
+  }
+  .largeimage1{
+    margin-top: 20px;
+    width: 77%;
+    height: 89%;
+    margin-left: -16%;
+    filter: grayscale(100%); /* Apply grayscale filter to make the image black and white */
+    transition: filter 0.3s; /* Add transition for a smooth effect */
+  
+  }
+  
+  /* images below read news */
+  
+  
+  .smallimage1:hover {
+    filter: grayscale(0%); /* Remove grayscale filter on hover to restore color */
+  }
+  .smallimage1:hover + .image-text {
+    color: darkslategray; /* Adjust the color as needed */
+  }
+  
+  .largeimage1:hover {
+    filter: grayscale(0%); /* Remove grayscale filter on hover to restore color */
+  }
+  
+  /* 2nd row of images */
+  .smallimage2{
+    margin-top: 10.50%;
+    width:40%;
+    margin-right: -26%;
+    height:55%;
+    /*  for black and white*/
+    filter: grayscale(100%); /* Apply grayscale filter to make the image black and white */
+    transition: filter 0.3s; /* Add transition for a smooth effect */
+  }
+  .largeimage2{
+    margin-top: 24%;
+    width: 151%;
+    height: 55%;
+    margin-left: 35%;
+    filter: grayscale(100%); /* Apply grayscale filter to make the image black and white */
+    transition: filter 0.3s; /* Add transition for a smooth effect */
+  
+  }
+  
+  /* images below read news */
+  
+  
+  .smallimage2:hover {
+    filter: grayscale(0%); /* Remove grayscale filter on hover to restore color */
+  }
+  .largeimage2:hover {
+    filter: grayscale(0%); /* Remove grayscale filter on hover to restore color */
+  }
+  
+  /* text over image */
+  
+  .image-with-text {
+   
+    font-family: 'YourCustomFont', sans-serif;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .image-with-text:hover {
+    
+    text-decoration: underline;
+    color: rgb(30, 216, 216); /* Change color on hover */
+  }
+  
+  /* for every image differnet text*/
+  
+  
+  .image-text {
+    position: absolute;
+    bottom: 679px; /* Adjust as needed */
+    left: 335px; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* color: black; */
+    background-color: white;
+    padding: 10px;
+    /* border-radius: 1px; */
+    font-size: 20px;
+  }
+  .image-text-2 {
+    position: absolute;
+    bottom: 679px; /* Adjust as needed */
+    left: 793px; /* Adjust as needed */
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    /* color: black; */
+    background-color: white;
+    padding: 10px;
+    /* border-radius: 1px; */
+    font-size: 20px;
+  }
+  .image-text-3 {
+    position: absolute;
+    bottom: 352px; /* Adjust as needed */
+    left: 487px; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* color: black; */
+    background-color: white;
+    padding: 10px;
+    
+    font-size: 20px;
+  }
+  .image-text-4 {
+    font-size: 20px;
+    position: absolute;
+    bottom: 352px; /* Adjust as needed */
+    left: 1057px; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* color: black; */
+    background-color: white;
+    padding: 10px;
+    /* border-radius: 5px; */
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    height: auto;
+    width: 70%;
+    color: white;
+  }
+
+  img{
+    width: 100%;
+  }
+
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+
+  .hero {
+    justify-content: center;
+    display: flex;
+  }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
